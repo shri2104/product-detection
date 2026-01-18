@@ -29,7 +29,6 @@ fun AROverlay(
             val width = r.width() * scaleX
             val height = r.height() * scaleY
 
-            // Bounding box
             drawRect(
                 color = Color.Green,
                 topLeft = Offset(left, top),
@@ -37,7 +36,6 @@ fun AROverlay(
                 style = Stroke(3f)
             )
 
-            // Tick mark
             drawCircle(
                 color = Color.Green,
                 radius = 16f,

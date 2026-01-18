@@ -13,6 +13,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
+import com.example.productdetection.camera.CameraScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -41,7 +42,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
             if (hasPermission) {
-
+                CameraScreen()
             }
         }
     }
